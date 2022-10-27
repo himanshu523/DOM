@@ -18,3 +18,9 @@ headerTitle.textContent ='hello';
 headerTitle.innerText='good bye';
 headerTitle.innerHTML='<h3>helloo</h3>';
 header.style.borderBottom='solid 3px #000';
+
+//changing additem to bold and green
+
+var item =document.querySelector('.title');
+item.style.fontWeight ="bold";
+item.style.color ="green";
