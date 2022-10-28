@@ -24,3 +24,13 @@ header.style.borderBottom='solid 3px #000';
 var item =document.querySelector('.title');
 item.style.fontWeight ="bold";
 item.style.color ="green";
+
+//GETELEMENTBYCLASS
+
+var item = document.getElementsByClassName('list-group-item');
+console.log(item);
+item[0].style.fontWeight='bold';
+item[1].style.fontWeight='bold';
+item[2].style.fontWeight='bold';
+item[3].style.fontWeight='bold';
+item[2].style.backgroundColor='green';
