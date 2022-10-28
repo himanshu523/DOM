@@ -38,3 +38,9 @@ for(var i=0;i<item.length;i++)
 {
     item[i].style.fontWeight='bold';
 }
+
+//GETELEMENTBYTAGNAME
+
+var li =document.getElementsByTagName('li')
+console.log(li);
+console.log(li[4]);
