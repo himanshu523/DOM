@@ -82,3 +82,85 @@
 //    even[i].style.backgroundColor ='#ccc';
 //}
 
+
+//TRAVERSING THE DOM
+var itemList =document.querySelector('#items');
+
+//PARENTNODE
+//console.log(itemList.parentNode);
+//itemList.parentNode.style.backgroundColor='red';
+//console.log(itemList.parentNode.parentNode);
+
+//PARENTELEMENT
+//console.log(itemList.parentElement);
+//itemList.parentElement.style.backgroundColor='red';
+//console.log(itemList.parentElement.parentElement);
+
+//CHILDNODES
+//console.log(itemList.childNodes);
+//console.log(itemList.children);
+//console.log(itemList.children[1]);
+//itemList.children[1].style.backgroundColor='yellow';
+
+//Firstchild
+//console.log(itemList.firstChild);
+
+//FIRSTELEMENTCHILD
+//console.log(itemList.firstElementChild);
+//itemList.firstElementChild.textContent='hello 1';
+
+//LASTCHILD
+//console.log(itemList.lastChild);
+//LASTELEMENTCHILD
+//console.log(itemList.lastElementChild);
+//itemList.lastElementChild.textContent='hello 4';
+
+//NEXTSIBLING
+//console.log(itemList.nextElementSibling);
+//NEXTELEMENTSIBLING
+//console.log(itemList.nextElementSibling);
+
+//PREVIOUSSIBLING
+//console.log(itemList.previousSibling);
+//PREVIOUSELEMENTSIBLING
+//itemList.previousElementSibling.getElementsByClassName.color='green';
+
+
+
+//createElement
+
+//create a div
+//var newDiv =document.createElement('div');
+
+//add class
+//newDiv.className='hello';
+
+//add id
+//newDiv.id='hello1';
+
+//add attr
+//newDiv.setAttribute('titile','hello div');
+
+//create text node
+//var newDivText = document.createTextNode('hello world');
+
+//add text to div
+//newDiv.appendChild(newDivText);
+//var container = document.querySelector('header .container');
+//var h2= document.querySelector('header h2');
+
+//console.log(newDiv);
+
+//newDiv.style.fontSize='30px';
+//container.insertBefore(newDiv,h2);
+
+//
+// IMPORTANT TASK
+//var parent = document.querySelector('#items');
+//parent.innerHTML =`<li class="list-group-item">hello </li>${parent.innerHTML}`;
+
+//var head = document.querySelector('#header-title');
+
+//head.innerHTML ='<h3>hello world</h3>'+ head.innerHTML;
+
+
