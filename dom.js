@@ -61,19 +61,24 @@
 //lastitem.style.color='blue';
 
 //var seconditem = document.querySelector('.list-group-item:nth-child(2)');
-//seconditem.style.color ='coral';
+//seconditem.style.backgroundColor ='green';
+
+//var thirditem = document.querySelector('.list-group-item:nth-child(3)');
+//thirditem.style.display='none';
+
 
 
 //QUERYSELECTORALL
 
 //var titles =document.querySelectorAll('.title');
-//titles[0].textContent='hello';
+//titles[1].backgroundColor='green';
 
 //var odd = document.querySelectorAll('li:nth-child(odd)');
 //var even =document.querySelectorAll('li:nth-child(even');
 
 //for(var i=0;i<odd.length;i++)
 //{
-//    odd[i].style.backgroundColor='#f4f4f4';
+//   odd[i].style.backgroundColor='green';
 //    even[i].style.backgroundColor ='#ccc';
 //}
+
